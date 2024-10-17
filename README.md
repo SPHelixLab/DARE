@@ -56,40 +56,40 @@ There are several parts of the code:
 ## Parameter Setting of DARE
 The attack settings are determined in the parameter **args** in **params.py**. 
 - ***Vertical Federated Learning Model Training Settings***
-    -- args.dataset: the name of dataset
-    -- args.seed: random seed
-    -- args.save: whether to save every model
-    -- args.vfl_model: the bottom model type of in VFL training
-    -- args.vfl_epochs: number of total epochs to run
-    -- args.vfl_batch_size: mini-batch size (default: 128)
-    -- args.vfl_lr: initial learning rate
-    -- args.vfl_momentum: momentum for vfl training
-    -- args.vfl_weight_decay: weight decay (default: 5e-4)
-    -- args.vfl_step_gamma: gamma for step scheduler
+    - args.dataset: the name of dataset
+    - args.seed: random seed
+    - args.save: whether to save every model
+    - args.vfl_model: the bottom model type of in VFL training
+    - args.vfl_epochs: number of total epochs to run
+    - args.vfl_batch_size: mini-batch size (default: 128)
+    - args.vfl_lr: initial learning rate
+    - args.vfl_momentum: momentum for vfl training
+    - args.vfl_weight_decay: weight decay (default: 5e-4)
+    - args.vfl_step_gamma: gamma for step scheduler
 - ***MAE Model Training Settings***
-    -- args.image_size: the size of input image
-    -- args.patch_size: patch size for mae model
-    -- args.mae_batch_size: batch size for MAE pre-training
-    -- args.mae_pretrain_epochs: number of total epochs to run: cifar(200) and tiny-imagenet(500)
-    -- args.mae_finetune_epochs: number of total epochs to run: cifar(200) and tiny-imagenet(500)
-    -- args.mae_warm_epochs: number of epochs for warm-up lr-schedule
-    -- args.mae_lr: learning rate for training MAE
-    -- args.mae_warm_start_lr: warm-up start learning rate
-    -- args.mae_warm_end_lr: warm-up end learning rate
+    - args.image_size: the size of input image
+    - args.patch_size: patch size for mae model
+    - args.mae_batch_size: batch size for MAE pre-training
+    - args.mae_pretrain_epochs: number of total epochs to run: cifar(200) and tiny-imagenet(500)
+    - args.mae_finetune_epochs: number of total epochs to run: cifar(200) and tiny-imagenet(500)
+    - args.mae_warm_epochs: number of epochs for warm-up lr-schedule
+    - args.mae_lr: learning rate for training MAE
+    - args.mae_warm_start_lr: warm-up start learning rate
+    - args.mae_warm_end_lr: warm-up end learning rate
 - ***Data Recovery Model Training Settings***
-    -- args.is_recovery_supervised: whether to train supervised attack model. True(supervised training) or False(unsupervised)
-    -- args.attack_batch_size: batch size for data recovery
-    -- args.attack_epochs: number of total epochs to run
-    -- args.attack_lr: learning rate for training data recovery model
-    -- args.attack_noise_type: type of attack noise, choices=['None', 'Noise', 'Soteria']
+    - args.is_recovery_supervised: whether to train supervised attack model. True(supervised training) or False(unsupervised)
+    - args.attack_batch_size: batch size for data recovery
+    - args.attack_epochs: number of total epochs to run
+    - args.attack_lr: learning rate for training data recovery model
+    - args.attack_noise_type: type of attack noise, choices=['None', 'Noise', 'Soteria']
 
 
 
 ## Execute DARE
-1. Run VFL_training.py for VFL frameworks.  
-2. Run MAE_pretrain.py for MAE pre-training model.  
-3. Run MAE_finetune.py for MAE fine-tuning model.  
-4. Run Data_recovery.py for data recovery.  
+Step 1. Run VFL_training.py for VFL frameworks.  
+Step 2. Run MAE_pretrain.py for MAE pre-training model.  
+Step 3. Run MAE_finetune.py for MAE fine-tuning model.  
+Step 4. Run Data_recovery.py for data recovery.  
 
 
 
