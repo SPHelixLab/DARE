@@ -39,7 +39,7 @@ DARE
 └── test.py
 ```
 There are several parts of the code:
-- data folder: This folder contains the training and testing data for the target model.  In order to reduce the memory space, we just list the  links to theset dataset here. 
+- data folder: This folder contains the training and testing data for the target model.  In order to reduce the memory space, we just list the  links to theset dataset here.
    -- Bank: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
    -- CIFAR10: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
    -- CIFAR100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
