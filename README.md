@@ -1,6 +1,6 @@
 # DARE
 The code for  paper "Uncovering Hidden Correlations: Post-Training  Data Reconstruction Attacks against Vertical  Federated Learning"
-# DARE (Data Reconstruction Attack)
+
 ## About The Project
 DARE allows a vertical federated client to reconstruct the corresponding complete data by leveraging his or her own incomplete data.
 
@@ -86,10 +86,10 @@ The attack settings are determined in the parameter **args** in **params.py**.
 
 
 ## Execute DARE
-*** 1.Run VFL_training.py for VFL frameworks.  ***
-*** 2.Run MAE_pretrain.py for MAE pre-training model.  ***
-*** 3.Run MAE_finetune.py for MAE fine-tuning model.  ***
-*** 4.Run Data_recovery.py for data recovery.  ***
+1. Run VFL_training.py for VFL frameworks.  
+2. Run MAE_pretrain.py for MAE pre-training model.  
+3. Run MAE_finetune.py for MAE fine-tuning model.  
+4. Run Data_recovery.py for data recovery.  
 
 
 
