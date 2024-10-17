@@ -40,10 +40,10 @@ DARE
 ```
 There are several parts of the code:
 - data folder: This folder contains the training and testing data for the target model.  In order to reduce the memory space, we just list the  links to theset dataset here.
--- Bank: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
--- CIFAR10: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
--- CIFAR100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
--- Tiny-ImageNet: http://cs231n.stanford.edu/tiny-imagenet-200.zip
+    - Bank: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+    - CIFAR10: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+    - CIFAR100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+    - Tiny-ImageNet: http://cs231n.stanford.edu/tiny-imagenet-200.zip
 - models folder: This folder contains three types of model structures, including the model structure of the Data Recovery Model, the model structure of MAE Model and the model structure of VFL Model.
 - results folder: This folder contains the saved parameters for the aforementioned three model architectures, including the MAE official pre-trained parameters.
 - params.py: This file contains the parameter setting of the model structure.
