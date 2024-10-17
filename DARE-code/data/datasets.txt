@@ -1,0 +1,5 @@
+This folder contains the training and testing data for the target model.  In order to reduce the memory space, we just list the  links to the set dataset here. 
+   -- Bank: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+   -- CIFAR10: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+   -- CIFAR100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+   -- Tiny-ImageNet: http://cs231n.stanford.edu/tiny-imagenet-200.zip
